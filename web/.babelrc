@@ -1,0 +1,12 @@
+{
+    "presets": [
+      ["@babel/preset-react", {
+        "runtime": "automatic" // 启用自动运行时转换
+      }]
+    ],
+    "plugins": [
+      ["@babel/plugin-transform-react-jsx", {
+        "runtime": "automatic" // 确保插件也设置为自动运行时
+      }]
+    ]
+  }

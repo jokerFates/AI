@@ -1,0 +1,9 @@
+.listWrap :global(.ant-bubble-list) {
+    scrollbar-width: thin !important;
+    scrollbar-color: #f79b227a transparent !important;
+
+    /* 添加悬停状态 */
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: #f89411d0 !important;
+    }
+}
